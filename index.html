@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="from">
+     <h1>Badges Generator</h1>
+      <input type="text" class="link Url" placeholder="Enter Your Url..." />
+       <select class="format" required="">   <option disabled="" selected="">Select Your badge</option>
+      <option value="https://drive.google.com/uc?export=view&id=13kA85ohsV1SqT7KNElKmcA3cbuepBVJv">Google Play</option>
+      <option value="https://drive.google.com/uc?export=view&id=13MExtKHrXKkDL0A4kqAjRHhVcxLUr3wg">Apple App Store</option>
+      <option value="https://drive.google.com/uc?export=view&id=12xeYSNtsNhpXoGa0S9ZeJ41JVnk9Lv6o">YouTube</option>
+      <option value="https://drive.google.com/uc?export=view&id=13jxiLqTXf4wy-fKuWlXfnwFdMw9GcPIU">Facebook</option>
+      <option value="https://drive.google.com/uc?export=view&id=13Aqrom9__ev8u7MYMjr_fjI3w2yND4lb">Apple TV</option>
+      <option value="https://drive.google.com/uc?export=view&id=13ZkPuS-5kmkTWVsi8a_yHCDJQWtJN0fS">Download 1</option>
+      <option value="https://drive.google.com/uc?export=view&id=13S9Cb0NftN9M7vhyoGRnhX_TLV2agamt">Download 2</option>
+      <option value="https://drive.google.com/uc?export=view&id=15uqSC7DFlOmJrBxANTiFXeSQ1hleeRZC">Book Now</option>
+      <option value="https://drive.google.com/uc?export=view&id=15v5OICEJp7ElOrj_lXX0tm0ifxDgSy9I">Learn More</option>
+      <option value="https://drive.google.com/uc?export=view&id=15vdhztzWm9b60YqgM-917VEvcnof78iE">Get Started Now</option>
+      </select>
+      <h1 class="text">Select Your Badges Size</h1>
+      <input type="number" class="link Size" value="250"/>
+    <button class="Get" onclick="Badgesbtn()">Generate Badges Button</button>
+    <div class="hidden2">
+      <div class="preview"></div>
+       <textarea class="result" hidden></textarea>
+        <button class="Get" onclick="Clipboard()">Copy Badge Code</button>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
